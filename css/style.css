@@ -1,0 +1,89 @@
+body {
+	color: white;
+	font-size: 21px;
+	text-align: center;
+	background-color: #056b31;
+	font-family: "Century",CenturyGothic,AppleGothic,sans-serif;
+}
+
+header {
+	background-color: #044721;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+
+h1 {
+	font-family: "Bradley Hand";
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+section {
+	float: left;
+	width: 70%;
+	margin-bottom: 100px;
+}
+
+aside {
+	background-color: white;
+	color: black;
+	float: right;
+	width: 25%;
+	padding: 10px;
+}
+
+.recipe-details-content {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 2rem;
+	grid-column-gap: 1.5rem;
+}
+
+.recipe-details-item {
+	display: block;
+}
+
+.recipe-details {
+	margin: 6px;
+	display: flex;
+	flex-direction: column;
+}
+
+.recipe-details-label {
+	font-size: large;
+}
+
+.recipe-details-value {
+	font-size: small;
+}
+
+ol {
+	text-align: left;
+	display: inline-block;
+	list-style-position: inside;
+}
+
+ul {
+	text-align: left;
+	display: inline-block;
+	list-style-position: inside;
+}
+
+li {
+	padding-bottom: 14px;
+}
+
+footer {
+	background-color: #7286A0;
+	clear: both;
+	padding: 50 0;
+	text-align: center;
+}
